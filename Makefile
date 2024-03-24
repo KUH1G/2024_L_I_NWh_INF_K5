@@ -5,6 +5,6 @@ lint:
 	flake8 hello_world test
 run:
 	python main.py
-.PHONY: test
+.PHONY:test
 test:
 	PYTHONPATCH=. py.test --verbose -s
