@@ -7,4 +7,4 @@ run:
 	python main.py
 .PHONY:test
 test:
-	PYTHONPATCH=. py.test --verbose -s
+	PYTHONPATH=. py.test --verbose -s
